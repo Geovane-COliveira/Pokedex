@@ -1,0 +1,57 @@
+h1 {
+    color: rgb(22, 62, 71);
+}
+
+body {
+    background-color:rgb(106, 130, 145);
+} 
+
+h2 {
+  color:rgb(6, 14, 4);
+}
+
+
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    height: 50vh;
+  
+    margin: 2rem;
+  }
+  
+  #create-button {
+    margin: 1rem;
+  }
+  
+  .form-container form {
+    display: flex;
+    flex-direction:column-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+  
+    height: inherit;
+    width: 40%;
+    padding: 1rem;
+  
+    background-color: var(--secondary);
+    border-radius: 1rem;
+  }
+  
+  input {
+    width: 22rem;
+    height: 1.6rem;
+    padding-left: 0.5rem;
+    border-radius: 2rem;
+    border: none;
+  }
+  
+  input::-webkit-file-upload-button {
+    height: inherit;
+    background: var(--secondary-hover);
+    border: none;
+    color: var(--text-dark);
+    font-family: inherit;
+    cursor: pointer;
+  }
